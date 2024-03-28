@@ -71,17 +71,17 @@ public class Calculator {
         }
     }
 
-    public Double calculateEqual(Double num) {
-        return calculateBi(BiOperatorModes.normal, num);
-    }
-
-    public Double reset() {
-        num2 = 0.0;
-        num1 = 0.0;
-        mode = BiOperatorModes.normal;
-
-        return NaN;
-    }
+//    public Double calculateEqual(Double num) {
+//        return calculateBi(BiOperatorModes.normal, num);
+//    }
+//
+//    public Double reset() {
+//        num2 = 0.0;
+//        num1 = 0.0;
+//        mode = BiOperatorModes.normal;
+//
+//        return NaN;
+//    }
 
     
     public Double calculateMono(MonoOperatorModes newMode, Double num) {
